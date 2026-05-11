@@ -1,0 +1,13 @@
+Inicio
+	Entero n, i
+	Real termino, producto
+	Leer n
+	i = 1
+	producto = 1
+	Mientras i <= n
+		termino = (2*i/(2*i - 1))*(2*i/(2*i + 1)
+		producto = producto * termino
+		i = i + 1
+	Fin mientras
+	Escribir 2*producto
+Fin

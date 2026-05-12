@@ -1,20 +1,20 @@
 Inicio
-	Entero n, i, pot, j
-	Real termino, suma
+	Entero i, n, j, pot
+	Real termino, suma 
 	Leer n
-	i = 0
 	suma = 0
-	Mientras i <= n
-		pot = 1
+	i = 0
+	Mientras i < n
 		j = 0
+		pot = 1
 		Mientras j < i
 			pot = pot * (-1)
 			j = j + 1
 		Fin mientras
-		termino = pot / (2*i + 1)
+		termino = pot/(2*i + 1)
 		suma = suma + termino
 		i = i + 1
 	Fin mientras
 	Escribir suma * 4
-Fin	
+Fin
 		

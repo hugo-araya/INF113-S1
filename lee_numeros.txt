@@ -1,0 +1,13 @@
+Inicio
+	Entero numero, suma, media, cont
+	cont = 0
+	suma = 0
+	Leer numero
+	Mientras numero != 0
+		suma = suma + numero
+		cont = cont + 1
+		Leer numero
+	Fin mientras
+	media = suma / cont
+	Escribir suma , media
+Fin

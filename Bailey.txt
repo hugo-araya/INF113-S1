@@ -1,0 +1,16 @@
+Inicio
+	Entero i, iteracion, e_16
+	Real termino, pi_b 
+	Leer iteracion
+	pi_b = 0
+	e_16 = 1
+	i = 0
+	Mientras i < n
+		termino = (1.0/e_16)*((4.0/(8*i+1))-(2.0/(8*i+4))-(1.0/(8*i+5))-(1.0/(8*i+6)))
+		pi_b = pi_b + termino
+		e_16 = e_16 * 16
+		i = i + 1
+	Fin mientras
+	Escribir pi_b
+Fin
+		

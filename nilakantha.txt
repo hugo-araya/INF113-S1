@@ -1,0 +1,15 @@
+Inicio
+	Entero i, iteracion, signo = -1
+	Real termino, pi_ap 
+	Leer iteracion
+	pi_ap = 3
+	i = 0
+	Mientras i < iteracion
+		signo = signo * (-1)
+		termino = 4/((i+2)*(i+3)*(i+4))
+		pi_ap = pi_ap + signo*termino
+		i = i + 1
+	Fin mientras
+	Escribir pi_ap
+Fin
+		
